@@ -1,6 +1,7 @@
 import React from "react";
 import doctor from "../../../assets/images/doctor.png";
 import appointment from "../../../assets/images/appointment.png";
+import PrimaryButton from "../../../Component/PrimaryButton/PrimaryButton";
 
 const MakeAppointment = () => {
   return (
@@ -30,6 +31,7 @@ const MakeAppointment = () => {
               here', making it look like readable English. Many desktop
               publishing packages and web page
             </p>
+            <PrimaryButton>Get Started</PrimaryButton>
           </div>
         </div>
       </div>

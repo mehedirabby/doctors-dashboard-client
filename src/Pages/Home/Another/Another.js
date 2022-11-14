@@ -1,5 +1,6 @@
 import React from "react";
 import treatment from "../../../assets/images/treatment.png";
+import PrimaryButton from "../../../Component/PrimaryButton/PrimaryButton";
 
 const Another = () => {
   return (
@@ -21,7 +22,7 @@ const Another = () => {
             dolorem corrupti mollitia possimus hic praesentium quod! Dolores
             facilis voluptates aliquam dolorem nemo repellat?
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <PrimaryButton>Get Started</PrimaryButton>
         </div>
       </div>
     </div>

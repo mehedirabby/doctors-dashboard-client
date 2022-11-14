@@ -1,9 +1,11 @@
 import React from "react";
 import Another from "./Another/Another";
 import Banner from "./Banner/Banner";
+import Contact from "./Contact/Contact";
 
 import InforCards from "./InfoCards/InforCards";
 import MakeAppointment from "./MakeAppointment/MakeAppointment";
+import ReviewSection from "./ReviewSection/ReviewSection";
 import Services from "./Services/services";
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
       <Services></Services>
       <Another></Another>
       <MakeAppointment></MakeAppointment>
+      <ReviewSection></ReviewSection>
+      <Contact></Contact>
     </div>
   );
 };
